@@ -1,0 +1,33 @@
+/* Empty. Add your own CSS if you like */
+
+/* CUSTOMIZE DEFAULT IONIC ITEM BORDERS */
+.ion-cover-item.activated,
+.ion-cover-item {
+    border: 1px solid #111;
+}
+
+/* AIRBNB */
+.airbnb-style.ion-cover-item {
+    justify-content: center;
+    text-align: center;
+    height: 340px;
+    border: 1px solid #333;
+}
+
+.airbnb-style.ion-cover-item h2 {
+    font-size: 30px;
+}
+
+.airbnb-style.ion-cover-item p {
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+/* ARTISTS STYLE */
+.music-style.ion-cover-item {
+    text-align: center;
+}
+
+.music-style.ion-cover-item h2 {
+    font-size: 30px;
+}

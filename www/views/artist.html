@@ -1,0 +1,15 @@
+<ion-view>
+  <ion-header-bar class="bar-dark">
+    <div class="buttons">
+      <a class="button button-icon ion-arrow-left-c" ng-click="back()"></a>
+    </div>
+    <h1 class="title">Explore Artists</h1>
+  </ion-header-bar>
+  <ion-content>
+    <div class="list">
+      <ion-cover-item class="music-style" cover="artist.cover" ng-click="goTo('details');" ng-repeat="artist in artists">
+        <h2>{{ artist.name }}</h2>
+      </ion-cover-item>
+    </div>
+  </ion-content>
+</ion-view>
